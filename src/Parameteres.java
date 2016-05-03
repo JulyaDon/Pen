@@ -28,6 +28,7 @@ public class Parameteres {
                 Scanner sc = new Scanner(System.in);
                 Sentence = sc.nextLine();
 
+                //comment
                 WordArray = Sentence.split("");
                 for (int i = 0; i < WordArray.length; i++) {
                     //FinalText[i] = WordArray[i];
